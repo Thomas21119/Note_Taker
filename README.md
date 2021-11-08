@@ -20,3 +20,6 @@ This work is available under the MIT license
 ![Image](https://github.com/Thomas21119/Note_Taker/blob/main/Assets/Note%20Taker%20-%20Avast%20Secure%20Browser%208_11_2021%209_14_20%20PM.png?raw=true)
 
 ![Image](https://github.com/Thomas21119/Note_Taker/blob/main/Assets/Note%20Taker%20-%20Avast%20Secure%20Browser%208_11_2021%209_13_44%20PM.png?raw=true)
+
+Github URL: https://github.com/Thomas21119/Note_Taker
+Deployed URL: https://evening-dawn-38161.herokuapp.com/
