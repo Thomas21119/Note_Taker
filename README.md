@@ -86,13 +86,13 @@ This homework is graded based on the following criteria:
 
 ### Deployment: 36%
 
-* Application deployed at live URL.
+<!-- * Application deployed at live URL. -->
 
-* Application loads with no errors.
+<!-- * Application loads with no errors. -->
 
 * Application GitHub URL submitted.
 
-* GitHub repository contains application code.
+<!-- * GitHub repository contains application code. -->
 
 
 ### Application Quality: 11%
@@ -106,9 +106,9 @@ This homework is graded based on the following criteria:
 
 <!-- * Repository follows best practices for file structure and naming conventions. -->
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+<!-- * Repository follows best practices for class/id naming conventions, indentation, quality comments, etc. -->
 
-* Repository contains multiple descriptive commit messages.
+<!-- * Repository contains multiple descriptive commit messages. -->
 
 * Repository contains quality README file with description, screenshot, and link to deployed application.
 
@@ -130,5 +130,4 @@ You are required to submit BOTH of the following for review:
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
 <!-- to do:
-push to heroku
 make readme and extra comments -->

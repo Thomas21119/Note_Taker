@@ -33,6 +33,7 @@ app.get('/api/notes', (req, res) => {
   });
 });
 
+// post everything to file on submit
 app.post('/api/notes', (req, res) => {
   let bodyRequest = req.body;
   let array = JSON.parse(fs.readFileSync(dbFileName, 'utf-8'));
@@ -46,27 +47,7 @@ app.post('/api/notes', (req, res) => {
   });
 });
 
-app.delete('./api/notes/:id', (req, res) => {
-  const requestID = req.params.id;
-  fs.readFile(dbFileName, 'utf-8', function (err, data) {
-    if (err) {
-      return console.log('error' + err);
-    } else {
-      notes = JSON.parse(data);
-      notes = notes.filter(function (value) {
-        return value !== requestID;
-      });
-      fs.writeFile(dbFileName, JSON.stringify(notes), function (err, data) {
-        if (err) {
-          return err;
-        } else {
-          res.json(data);
-        }
-      });
-    }
-  });
-});
-
+// give notes an id which deletes specific notes
 app.delete('/api/notes/:id', function (req, res) {
   const noteId = JSON.parse(req.params.id);
   fs.readFile(__dirname + '/db/db.json', 'utf8', function (error, notes) {
